@@ -1,0 +1,8 @@
+default_policy: "My Alert Policy"
+
+organizations:
+  martin-boost-dev:
+    policy: "My Block Policy"
+    repositories:
+      .boost:
+        policy: "My Alert Policy"
