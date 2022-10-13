@@ -6,3 +6,7 @@ organizations:
     repositories:
       .boost:
         policy: "My Alert Policy"
+      other-repo:
+        policy: "My Alert Policy"
+  other-org:
+    policy: "My Block Policy"
