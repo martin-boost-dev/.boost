@@ -10,3 +10,5 @@ organizations:
         policy: "My Alert Policy"
   other-org:
     policy: "My Block Policy"
+  other-org2:
+    policy: "My Block Policy"
