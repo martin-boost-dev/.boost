@@ -1,0 +1,7 @@
+policies:
+  - name: My Alert Policy
+    location:
+      custom: scripts/My Alert Policy/module.rego
+  - name: My Block Policy
+    location:
+      custom: scripts/My Block Policy/module.rego
