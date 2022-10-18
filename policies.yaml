@@ -1,7 +1,7 @@
 policies:
   - name: My Alert Policy
     location:
-      custom: policies/My Alert Policy/module.rego
+      custom: scripts/My Alert Policy/module.rego
   - name: My Block Policy
     location:
-      custom: policies/My Block Policy/module.rego
+      custom: scripts/My Block Policy/module.rego
