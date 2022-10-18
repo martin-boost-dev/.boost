@@ -5,3 +5,6 @@ policies:
   - name: My Block Policy
     location:
       custom: scripts/My Block Policy/module.rego
+  - name: My other Policy
+    location:
+      custom: scripts/My Block Policy/module.rego
