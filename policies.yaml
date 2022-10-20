@@ -8,3 +8,7 @@ policies:
   - name: My other Policy
     location:
       custom: scripts/My Block Policy/module.rego
+  - name: My boost category
+    location:
+      registry_module: boost-category
+    config_file: alert-all-boost-category-config.yaml
