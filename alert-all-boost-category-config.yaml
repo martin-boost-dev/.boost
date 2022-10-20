@@ -1,0 +1,5 @@
+policies:
+    any:
+        any:
+            any: "block"
+disabled_rules: {}
