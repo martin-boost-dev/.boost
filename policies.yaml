@@ -1,5 +1,6 @@
 policies:
   - name: My Alert Policy
+    description: "This policy is awesome!"
     location:
       custom: scripts/My Alert Policy/module.rego
   - name: My Block Policy
