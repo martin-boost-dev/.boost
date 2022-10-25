@@ -2,7 +2,6 @@ policies:
   any:
     any:
       any: "alert"
-disabled_rules:
   top10-security-logging-monitoring-failures:
     critical:
       high: "block"
@@ -19,3 +18,4 @@ disabled_rules:
       high: "ignore"
       low: "ignore"
       not_set: "ignore"
+disabled_rules: {}
