@@ -14,7 +14,7 @@ set_score(findings_count) = score {
 analysis_actions(analysis) = acts {
     acts := [{
         "action": "score:set_score",
-        "score": set_score(3),
+        "score": set_score(analysis.findings),
     }]
 }
 # count(analysis.findings)
