@@ -1,0 +1,5 @@
+organizations:
+  martin-boost-dev:
+    repositories:
+      test-terragoat:
+        policy: "My boost-category"
