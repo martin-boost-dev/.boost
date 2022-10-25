@@ -1,0 +1,21 @@
+policies:
+  any:
+    any:
+      any: "alert"
+disabled_rules:
+  top10-security-logging-monitoring-failures:
+    critical:
+      high: "block",
+      medium: "block",
+      low: "block",
+      not_set: "block",
+    warning: {
+      high: "block",
+      medium: "block",
+      low: "block",
+      not_set: "block",
+    minor: {
+      medium: "ignore",
+      high: "ignore",
+      low: "ignore",
+      not_set: "ignore",

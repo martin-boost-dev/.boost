@@ -1,5 +1,0 @@
-policies:
-    any:
-        any:
-            any: "alert"
-disabled_rules: {}
