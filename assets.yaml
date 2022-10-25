@@ -2,4 +2,6 @@ organizations:
   martin-boost-dev:
     repositories:
       test-terragoat:
-        policy: "My boost-category"
+        policy: "Do the score"
+  some_org:
+    policy: "Do the score"

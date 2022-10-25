@@ -4,3 +4,7 @@ policies:
     location:
       registry_module: boost-category
     config_file: config/boost-category-config.yaml
+  - name: Do the score
+    location:
+      custom: scripts/set-score.rego
+    config_file: config/boost-category-config.yaml
