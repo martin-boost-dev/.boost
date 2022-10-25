@@ -1,7 +1,7 @@
 policies:
   any:
     any:
-      any: "alert"
+      any: "ignore"
   cloud-resources-public-access:
     critical:
       high: "block"
