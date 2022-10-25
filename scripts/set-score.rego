@@ -1,7 +1,7 @@
 package main
 
 finding_action(finding, analysis) = akt {
-    act := "ignore"
+    akt := "ignore"
 }
 
 set_score(findings_count) = score {
