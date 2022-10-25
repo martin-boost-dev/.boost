@@ -5,7 +5,7 @@ finding_action(finding, analysis) = akt {
 }
 
 set_score(findings_count) = score {
-    findings_count >= 2
+    findings_count >= 15
     score := "D"
 } else = score {
     score := "A"

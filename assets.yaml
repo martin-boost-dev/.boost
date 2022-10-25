@@ -9,6 +9,6 @@ organizations:
       other-repo:
         policy: "My Alert Policy"
       test-terragoat:
-        policy: "My boost category"
+        policy: "Set Score"
   other-org:
     policy: "My Block Policy"
