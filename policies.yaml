@@ -1,0 +1,6 @@
+policies:
+  - name: My boost-category
+    description: "This is awesome"
+    location:
+      registry_module: boost-category
+    config_file: config/boost-category-config.yaml
