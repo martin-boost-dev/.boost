@@ -2,7 +2,7 @@ policies:
   any:
     any:
       any: "alert"
-  top10-security-logging-monitoring-failures:
+  cloud-resources-public-access:
     critical:
       high: "block"
       medium: "block"
