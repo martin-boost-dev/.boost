@@ -1,7 +1,7 @@
 policies:
   any:
     any:
-      any: "ignore"
+      any: "block"
   cloud-resources-public-access:
     critical:
       high: "block"
@@ -14,8 +14,8 @@ policies:
       low: "block"
       not_set: "block"
     minor:
-      medium: "ignore"
-      high: "ignore"
-      low: "ignore"
-      not_set: "ignore"
+      medium: "block"
+      high: "block"
+      low: "block"
+      not_set: "block"
 disabled_rules: {}
