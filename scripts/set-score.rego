@@ -1,7 +1,11 @@
 package main
 
-finding_action(finding, analysis) = akt {
-    akt := "ignore"
+is_violation(finding, analysis) = r {
+    r := false
+}
+
+finding_actions(finding, param, analysis) = r {
+    r := []
 }
 
 set_score(findings_count) = score {

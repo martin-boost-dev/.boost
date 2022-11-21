@@ -3,5 +3,3 @@ organizations:
     repositories:
       test-terragoat:
         policy: "My boost-category"
-  some_org:
-    policy: "Do the score"

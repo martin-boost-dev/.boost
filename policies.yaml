@@ -1,10 +1,5 @@
 policies:
   - name: My boost-category
-    description: "This is awesome"
-    location:
-      registry_module: boost-category
-    config_file: config/boost-category-config.yaml
-  - name: Do the score
+    description: Prevent AWS related findings.
     location:
       custom: scripts/set-score.rego
-    config_file: config/boost-category-config.yaml
