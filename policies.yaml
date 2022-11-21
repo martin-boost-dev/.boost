@@ -1,5 +1,5 @@
 policies:
-  - name: AWS Critical
+  - name: My boost-category
     description: Prevent AWS related findings.
     location:
       registry_module: boostsecurityio/actions-by-label
