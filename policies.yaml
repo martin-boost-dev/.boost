@@ -1,10 +1,6 @@
 policies:
-  - name: My boost-category
-    description: "This is awesome"
+  - name: AWS Critical
+    description: Prevent AWS related findings.
     location:
-      registry_module: boost-category
-    config_file: config/boost-category-config.yaml
-  - name: Do the score
-    location:
-      custom: scripts/set-score.rego
-    config_file: config/boost-category-config.yaml
+      registry_module: boostsecurityio/actions-by-label
+    config_file: config/aws-critical-aws-config.yaml
