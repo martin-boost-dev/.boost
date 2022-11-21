@@ -3,4 +3,3 @@ policies:
     description: Prevent AWS related findings.
     location:
       registry_module: boostsecurityio/actions-by-label
-    config_file: config/aws-critical-aws-config.yaml
