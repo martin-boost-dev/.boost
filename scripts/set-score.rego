@@ -4,7 +4,7 @@ is_violation(finding, analysis) = r {
     r := false
 }
 
-finding_actions(finding, analysis) = r {
+finding_actions(finding, param, analysis) = r {
     r := []
 }
 
