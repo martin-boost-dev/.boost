@@ -1,7 +1,7 @@
 package main
 
 is_violation(finding, analysis) = r {
-    r := false
+    r := true
 }
 
 finding_actions(finding, param, analysis) = r {
