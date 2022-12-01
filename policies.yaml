@@ -3,3 +3,7 @@ policies:
     description: Prevent AWS related findings.
     location:
       custom: scripts/set-score.rego
+  - name: My Boost-category
+    description: Prevent AWS related findings.
+    location:
+      custom: scripts/set-score.rego
