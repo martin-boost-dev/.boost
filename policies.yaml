@@ -3,7 +3,7 @@ policies:
     description: Prevent AWS related findings.
     location:
       custom: scripts/set-score.rego
-  - name: My Boost-category
-    description: Prevent AWS related findings.
+  - name: Block all
     location:
-      custom: scripts/set-score.rego
+      registry_module: boostsecurityio:actions-by-labels
+    config_file: config/boost-category-config.yaml
