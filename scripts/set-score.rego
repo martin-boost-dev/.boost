@@ -14,7 +14,7 @@ set_score(findings_count) = score {
 } else = score {
     score := "A"
 }
-
+wat wat {
 analysis_actions(analysis) = acts {
     acts := [{
         "action": "score:set_score",
