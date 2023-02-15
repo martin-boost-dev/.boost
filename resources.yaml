@@ -3,3 +3,7 @@ organizations:
     repositories:
       test-terragoat:
         policy: "Block all"
+      labels-test:
+        labels:
+          label-terragoat:
+            policy: "Block All"
