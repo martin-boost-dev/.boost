@@ -6,4 +6,4 @@ organizations:
       labels-test:
         labels:
           label-terragoat:
-            policy: "Block All"
+            policy: "Block all"
