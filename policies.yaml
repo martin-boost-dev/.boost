@@ -3,7 +3,6 @@ policies:
     description: Prevent AWS related findings.
     location:
       custom:
-        - scripts/lib.rego
         - scripts/set-score.rego
   - name: Block all
     location:
