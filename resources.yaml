@@ -1,8 +1,6 @@
 organizations:
   martin-boost-dev:
     repositories:
-      test-terragoat:
-        policy: "Block all"
       labels-test:
         labels:
           label-terragoat:
