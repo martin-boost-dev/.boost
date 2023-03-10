@@ -2,7 +2,7 @@ organizations:
   martin-boost-dev:
     repositories:
       test-terragoat:
-        policy: "Block all"
+        policy: "Block on related"
       labels-test:
         labels:
           label-terragoat:

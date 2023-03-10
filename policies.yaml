@@ -8,3 +8,7 @@ policies:
     location:
       registry_module: boostsecurityio:actions-by-labels
     config_file: config/boost-category-config.yaml
+  - name: Block on related
+    location:
+      custom:
+        - scripts/related.rego
