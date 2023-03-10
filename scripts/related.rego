@@ -10,7 +10,7 @@ finding_actions(finding, is_finding_violation, analysis) = acts {
 }
 
 analysis_actions(analysis, related_analyses) = acts {
-    count(related_analyses) = 0
+    count(related_analyses) > 1
     acts := [
         {"action":actions.SCM_POST_COMMENTS},
         {"action":actions.SCM_FAIL_CHECK}
