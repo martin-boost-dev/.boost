@@ -12,3 +12,7 @@ policies:
     location:
       custom:
         - scripts/related.rego
+  - name: notify-all-the-things
+    location:
+      custom:
+        - scripts/notify-all-the-things.rego
