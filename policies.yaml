@@ -16,3 +16,7 @@ policies:
     location:
       custom:
         - scripts/notify-all-the-things.rego
+  - name: app-composition
+    location:
+      custom:
+        - scripts/app-composition.rego
