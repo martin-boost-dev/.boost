@@ -10,7 +10,7 @@ finding_actions(finding, is_finding_violation, analysis) = acts {
     acts := [{"action": actions.NOTIFY}]
 } else = acts {
     contains(finding.details.uri, "target2")
-    acts := [{"action": actions.NOTIFY, "target": "#mroy-outbound"}]
+    acts := [{"action": actions.NOTIFY, "target": "wat"}]
 } else = acts {
     contains(finding.details.uri, "target3")
     acts := [{"action": actions.NOTIFY, "target": "unknown"}]
