@@ -7,5 +7,5 @@ organizations:
         labels:
           label-terragoat:
             policy: "Block all"
-#      test-repo:
-#        policy: "notify-all-the-things"
+      test-repo:
+        policy: "notify-all-the-things"
