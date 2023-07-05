@@ -1,2 +1,2 @@
 default:
-  - aws-athena-encryption-off
+  - aws-resource-logging-off
