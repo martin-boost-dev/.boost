@@ -12,7 +12,7 @@ policies:
     location:
       registry_module: boostsecurityio:actions-by-labels
     config_file: config/boost-category-config.yaml
-    disabled_rules_file: rules/no-aws.yaml
+    disabled_rules_file: rules/disabled-rules.yaml
   - name: Block on related
     location:
       custom:
