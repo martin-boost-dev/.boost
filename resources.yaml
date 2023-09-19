@@ -1,11 +1,11 @@
-organizations:
-  martin-boost-dev:
-    repositories:
-      test-terragoat:
-        policy: "Block all - with disabled rules"
-      labels-test:
-        labels:
-          label-terragoat:
-            policy: "Block all"
-      test-repo:
-        policy: "notify-all-the-things"
+organizations: {}
+#  martin-boost-dev:
+#    repositories:
+#      test-terragoat:
+#        policy: "Block all - with disabled rules"
+#      labels-test:
+#        labels:
+#          label-terragoat:
+#            policy: "Block all"
+#      test-repo:
+#        policy: "notify-all-the-things"
